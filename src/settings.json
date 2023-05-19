@@ -1,0 +1,24 @@
+{
+  /**
+   * Minimalistic VSCode
+   */
+
+  // Breadcrumbs
+  "breadcrumbs.enabled": false,
+
+  // Editor
+  "editor.minimap.enabled": false,
+  "editor.lineNumbers": "off",
+  "editor.glyphMargin": false,
+  "editor.showFoldingControls": "never",
+
+  // Window
+  "window.title": "\u0020${rootNameShort}${separator}${profileName}", // Space character prevents the ${appName} from showing if(!workspace)
+  "window.menuBarVisibility": "hidden",
+  "window.commandCenter": false,
+
+  // Workbench
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.visible": false,
+  "workbench.layoutControl.enabled": false
+}
