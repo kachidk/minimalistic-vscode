@@ -20,5 +20,6 @@
   // Workbench
   "workbench.statusBar.visible": false,
   "workbench.activityBar.visible": false,
-  "workbench.layoutControl.enabled": false
+  "workbench.layoutControl.enabled": false,
+  "workbench.tips.enabled": false
 }
