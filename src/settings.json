@@ -1,33 +1,46 @@
 {
   /**
-   * Minimalistic VSCode
+   * Better Defaults
    */
+  "workbench.editor.enablePreview": false,
+  "diffEditor.renderSideBySide": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "explorer.compactFolders": false,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.semanticHighlighting.enabled": true,
+  "explorer.autoReveal": "focusNoScroll",
+  "workbench.editor.untitled.hint": "hidden",
+  "window.restoreWindows": "none",
+  "terminal.integrated.persistentSessionReviveProcess": "never",
 
-  // Breadcrumbs
-  "breadcrumbs.enabled": false,
-
-  // Editor
+  /**
+   * Hide Everything
+   **/
+  "workbench.activityBar.visible": false,
+  "workbench.sideBar.location": "right",
+  "workbench.statusBar.visible": false,
+  "workbench.editor.showTabs": false,
+  "editor.guides.indentation": false,
   "editor.minimap.enabled": false,
   "editor.lineNumbers": "off",
-  "editor.glyphMargin": false,
-  "editor.showFoldingControls": "never",
-  "editor.guides.indentation": false,
-  "editor.guides.bracketPairs": false,
-  "editor.guides.bracketPairsHorizontal": false,
-  "editor.guides.highlightActiveBracketPair": false,
-  "editor.guides.highlightActiveIndentation": false,
-  "editor.renderWhitespace": "none",
-
-  // Window
-  "window.title": "\u0020${rootNameShort}${separator}${profileName}", // Space character prevents the ${appName} from showing if(!workspace)
   "window.menuBarVisibility": "hidden",
-  "window.commandCenter": false,
-
-  // Workbench
-  "workbench.statusBar.visible": false,
-  "workbench.activityBar.visible": false,
   "workbench.layoutControl.enabled": false,
+  "window.title": "\u0020${rootName}${separator}${profileName}",
+  "window.titleSeparator": " — ",
+
+  /**
+   * Silence The Noise
+   **/
+  "breadcrumbs.enabled": false,
   "workbench.tips.enabled": false,
+  "workbench.startupEditor": "none",
+  "editor.overviewRulerBorder": false,
+  "editor.renderLineHighlight": "none",
+  "editor.hideCursorInOverviewRuler": true,
+  "explorer.openEditors.visible": 0,
   "workbench.tree.renderIndentGuides": "none",
-  "workbench.tree.indent": 16
+  "workbench.editor.decorations.colors": false,
+  "workbench.editor.decorations.badges": false
 }
