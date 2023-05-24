@@ -28,7 +28,7 @@
   "editor.lineNumbers": "off",
   "window.menuBarVisibility": "hidden",
   "workbench.layoutControl.enabled": false,
-  "window.title": "\u0020${rootName}${separator}${profileName}",
+  "window.title": "${rootName}${separator}${profileName}",
   "window.titleSeparator": " — ",
 
   /**
