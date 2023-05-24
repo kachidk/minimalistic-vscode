@@ -2,6 +2,7 @@
   /**
    * Better Defaults
    */
+  "workbench.enableExperiments": false,
   "workbench.editor.enablePreview": false,
   "diffEditor.renderSideBySide": false,
   "diffEditor.ignoreTrimWhitespace": false,
