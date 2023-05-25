@@ -8,6 +8,7 @@
   "explorer.compactFolders": false,
   "editor.codeLens": false,
   "update.enableWindowsBackgroundUpdates": false,
+  "extensions.autoUpdate": false,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
