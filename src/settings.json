@@ -20,6 +20,7 @@
   "workbench.editor.untitled.hint": "hidden",
   "window.restoreWindows": "none",
   "terminal.integrated.persistentSessionReviveProcess": "never",
+  "update.mode": "manual",
 
   /**
    * Hide Everything
