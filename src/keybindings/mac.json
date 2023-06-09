@@ -3,13 +3,13 @@
    * File Explorer
    */
   {
-    "key": "cmd+shift+n",
-    "command": "explorer.newFolder",
+    "key": "cmd+n",
+    "command": "explorer.newFile",
     "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
   },
   {
-    "key": "cmd+n",
-    "command": "explorer.newFile",
+    "key": "cmd+shift+n",
+    "command": "explorer.newFolder",
     "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
   },
   {
@@ -19,8 +19,13 @@
   },
 
   /**
-   * Terminal Split Panel
+   * Terminal
    */
+  {
+    "key": "cmd+w",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus"
+  },
   {
     "key": "cmd+n",
     "command": "workbench.action.terminal.split",
@@ -34,11 +39,6 @@
   {
     "key": "cmd+right",
     "command": "workbench.action.terminal.focusNextPane",
-    "when": "terminalFocus"
-  },
-  {
-    "key": "cmd+w",
-    "command": "workbench.action.terminal.kill",
     "when": "terminalFocus"
   },
 
