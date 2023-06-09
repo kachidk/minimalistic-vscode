@@ -9,6 +9,7 @@
   "editor.codeLens": false,
   "update.enableWindowsBackgroundUpdates": false,
   "extensions.autoUpdate": false,
+  "files.hotExit": "off",
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
