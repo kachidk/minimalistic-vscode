@@ -21,12 +21,14 @@
   "window.restoreWindows": "none",
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "update.mode": "manual",
+  "editor.copyWithSyntaxHighlighting": false,
+  "window.newWindowDimensions": "inherit",
+  "editor.snippetSuggestions": "top",
 
   /**
    * Hide Everything
    **/
   "workbench.activityBar.visible": false,
-  "workbench.sideBar.location": "right",
   "workbench.statusBar.visible": false,
   "workbench.editor.showTabs": false,
   "editor.guides.indentation": false,
@@ -44,10 +46,24 @@
   "workbench.tips.enabled": false,
   "workbench.startupEditor": "none",
   "editor.overviewRulerBorder": false,
-  "editor.renderLineHighlight": "none",
-  "editor.hideCursorInOverviewRuler": true,
   "explorer.openEditors.visible": 0,
   "workbench.tree.renderIndentGuides": "none",
   "workbench.editor.decorations.colors": false,
-  "workbench.editor.decorations.badges": false
+  "workbench.editor.decorations.badges": false,
+
+  /**
+   * Code
+   **/
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+
+  /**
+   * Typography
+   **/
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.5,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 1
 }
