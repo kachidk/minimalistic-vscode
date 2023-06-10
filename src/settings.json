@@ -24,7 +24,6 @@
   "update.mode": "manual",
   "editor.copyWithSyntaxHighlighting": false,
   "window.newWindowDimensions": "inherit",
-  "editor.snippetSuggestions": "top",
 
   /**
    * Hide Everything
