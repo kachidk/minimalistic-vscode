@@ -31,9 +31,8 @@
   "workbench.activityBar.visible": false,
   "workbench.statusBar.visible": false,
   "workbench.editor.showTabs": false,
-  "editor.guides.indentation": false,
+  "workbench.sideBar.location": "right",
   "editor.minimap.enabled": false,
-  "editor.lineNumbers": "off",
   "window.menuBarVisibility": "hidden",
   "workbench.layoutControl.enabled": false,
   "window.title": "${rootName}${separator}${profileName}",
@@ -46,7 +45,6 @@
   "workbench.tips.enabled": false,
   "workbench.startupEditor": "none",
   "editor.overviewRulerBorder": false,
-  "workbench.tree.renderIndentGuides": "none",
   "workbench.editor.decorations.colors": false,
   "workbench.editor.decorations.badges": false,
 

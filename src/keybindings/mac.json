@@ -1,48 +1,5 @@
 [
   /**
-   * File Explorer
-   */
-  {
-    "key": "cmd+n",
-    "command": "explorer.newFile",
-    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
-  },
-  {
-    "key": "cmd+shift+n",
-    "command": "explorer.newFolder",
-    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
-  },
-  {
-    "key": "cmd+r",
-    "command": "workbench.files.action.refreshFilesExplorer",
-    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
-  },
-
-  /**
-   * Terminal
-   */
-  {
-    "key": "cmd+w",
-    "command": "workbench.action.terminal.kill",
-    "when": "terminalFocus"
-  },
-  {
-    "key": "cmd+n",
-    "command": "workbench.action.terminal.split",
-    "when": "terminalFocus"
-  },
-  {
-    "key": "cmd+left",
-    "command": "workbench.action.terminal.focusPreviousPane",
-    "when": "terminalFocus"
-  },
-  {
-    "key": "cmd+right",
-    "command": "workbench.action.terminal.focusNextPane",
-    "when": "terminalFocus"
-  },
-
-  /**
    * Emmet
    */
   {
